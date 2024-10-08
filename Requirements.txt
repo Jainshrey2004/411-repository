@@ -1,0 +1,29 @@
+Agile
+
+1.1 As a vanilla git power-user that has never seen GiggleGit before, I want to understand how this product integrates with my current setup so that i can start using it quicky without losing any time and functionality.
+1.2 As a team lead onboarding an experienced GiggleGit user, I want to provide a well decumented training tutorial to my team so that theu can quicly become familiar with the product and start using it.
+
+2 User Story - as a product mamager trying to convinve my team to use Gigglebit, i would like to have access to documentations and examples ot show how gigglebit is better than the existing version control systems to show its benefits.
+2.1 Task - Create onboarding tutorial for developers. 
+2.2 Ticket 1 - Create tutorial for initial repo setup.
+  Develop a video tutorial that guides developers on how to set up their first repository in GiggleGit including adding files and committing changes.
+2.2 Ticket 2 - Create a tuttorial for using memes in merges.
+  Develop a tutorial that explains the process of performing merge with memes in GiggleGit.
+
+3 The user story doesnt tell us why the user needs authentication on a new machine. A good user story shoukd tell the required action and the logic behind that acton. This is more of a requirement.
+
+
+Formal requirements
+
+Goal - Make sure users can easily use SnickerSync to sync their repositories with fun without slowing them down.
+Non-Goal - Add complex features to SnickerSync during this initial phase.
+
+Non-functional requirement 1 - access control
+  Functional Requirement:
+    - admins should be able to set user roles like viewer, editor and admin, each having different levels of access.
+    - only admins can change the settings of SnickerSync.
+
+Non-functional requirement 2 - performance
+  Functional Requirement:
+    - the system should be able to complete a merge with SnickerSync within half the time it takes to perform a standard Git merge.
+    - the system should provide real time progress updates during the sync process to keep users informed.
