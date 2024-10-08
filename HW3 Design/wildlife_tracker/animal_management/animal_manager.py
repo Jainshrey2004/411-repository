@@ -1,6 +1,6 @@
-from typing import Optional
+from typing import Optional, Any
 
-from wildlife_tracker.animal_managment.animal import Animal
+from wildlife_tracker.animal_management.animal import Animal
 
 class AnimalManager:
 
@@ -14,4 +14,7 @@ class AnimalManager:
         pass
 
     def remove_animal(self, animal_id: int) -> None:
+        pass
+    
+    def update_animal_details(self, animal_id: int, **kwargs: Any) -> None:
         pass
